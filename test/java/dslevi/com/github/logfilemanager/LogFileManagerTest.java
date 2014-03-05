@@ -99,7 +99,7 @@ public class LogFileManagerTest {
 	}
 	
 	@After public void teardown() {
-		if (testFile.exists()) testFile.delete();	
+		if (testFile.exists()) testFile.delete();
 	}
 
 }
